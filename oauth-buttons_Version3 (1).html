@@ -1,0 +1,12 @@
+<div style="margin-top:2em;">
+  <h3>Or sign in with:</h3>
+  <button onclick="oauthLogin('google')" style="background:#4285F4;color:#fff;border:none;padding:0.5em 1.2em;border-radius:6px;">Google</button>
+  <button onclick="oauthLogin('github')" style="background:#24292f;color:#fff;border:none;padding:0.5em 1.2em;border-radius:6px;">GitHub</button>
+  <button onclick="oauthLogin('facebook')" style="background:#3b5998;color:#fff;border:none;padding:0.5em 1.2em;border-radius:6px;">Facebook</button>
+</div>
+<script>
+function oauthLogin(provider) {
+  // TODO: Implement OAuth redirect or popup
+  alert('Redirect to '+provider+' OAuth login (integrate backend here)');
+}
+</script>
